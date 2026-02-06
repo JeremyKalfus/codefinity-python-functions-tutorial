@@ -1,4 +1,5 @@
 def merge_shopping_lists(*shopping_lists):
+    print(shopping_lists)
     merged_list = ""
     # Iterate through all shopping lists and combine them into a single string
     for list in shopping_lists:
